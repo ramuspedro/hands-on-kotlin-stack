@@ -8,8 +8,8 @@ plugins {
 	kotlin("plugin.jpa") version "1.7.22"
 }
 
-group = { { project_groupid } }
-version = { { project_version } }
+group = {{ project_groupid }}
+version = {{ project_version }}
 java.sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {

@@ -6,12 +6,12 @@ inputs:
   - label: Project name
     type: text
     name: project_name
-    default: project-name
+    default: "demo project"
     global: true
   - label: Project group id
     type: text
     name: project_groupid
-    default: project-groupid
+    default: "com.stackspot.demo"
     global: true
   - label: Project version
     type: text
