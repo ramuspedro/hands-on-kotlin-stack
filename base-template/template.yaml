@@ -1,0 +1,26 @@
+name: base-template
+description: Template Base para projeto kotlin + gradle + spring
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
+    global: true
+  - label: Project group id
+    type: text
+    name: project_groupid
+    default: project-groupid
+    global: true
+  - label: Project version
+    type: text
+    name: project_version
+    default: "0.0.1-SNAPSHOT"
+    global: true
+  - label: Project description
+    type: text
+    name: project_description
+    default: "Descrição do Projeto"
+    global: true
+    required: false

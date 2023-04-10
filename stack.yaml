@@ -4,8 +4,11 @@ display-name: hands-on-kotlin-stack
 picture: stack.png
 category: backend # Ref: https://docs.stackspot.com/docs/create-stacks/yaml-files/plugin/#category
 compatibility: # Put a list of technologies compatible with the stack
-  - java
+  - kotlin
   - spring
+  - openapi
+  - jpa
+  - testcontainers
 technologies: # Ref: https://docs.stackspot.com/docs/create-stacks/yaml-files/yaml/#technologies 
   - docker 
 about: docs/about.md
